@@ -1,0 +1,82 @@
+
+StopwatchWidget {
+    layout: horizontal;
+    background: $boost;
+    height: 5;
+    margin: 1;
+    min-width:100;
+    padding: 1;
+}
+
+TimeDisplayWidget {
+    content-align: center middle;
+    text-opacity: 10%;
+    height: 3;
+}
+
+Button {
+    width: 16;
+    height: 3;
+}
+
+#start {
+    dock: left;
+}
+
+#resume {
+    dock: left;
+    display: none;
+}
+
+#stop {
+    dock: left;
+    display: none;
+}
+
+#reset {
+    dock: right;
+}
+
+.started {
+    text-style: bold;
+    background: $success;
+    color: $text;
+}
+
+.started TimeDisplayWidget {
+    text-opacity: 100%;
+}
+
+.started #start {
+    display: none;
+}
+
+.started #resume {
+    display: none;
+}
+
+.started #stop {
+    display: block;
+}
+
+.stopped {
+    text-style: bold;
+    background: $warning;
+    color: $text;
+}
+
+.stopped TimeDisplayWidget {
+    text-opacity: 100%;
+}
+
+.stopped #start {
+    display: none;
+}
+
+.stopped #resume {
+    display: block;
+}
+
+.stopped #stop {
+    display: none;
+}
