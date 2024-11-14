@@ -40,3 +40,11 @@
     textual console --port 7342
     textual run --dev --port 7342 my_app.py
     ```
+
+### Theme Reference
+
+- Here's a list of the colors defined in the default light and dark themes.
+
+    ```bash
+    textual color
+    ```
