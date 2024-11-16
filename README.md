@@ -46,5 +46,5 @@
 - Here's a list of the colors defined in the default light and dark themes.
 
     ```bash
-    textual color
+    textual colors
     ```
