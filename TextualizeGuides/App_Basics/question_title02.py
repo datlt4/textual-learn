@@ -47,7 +47,6 @@ class QuestionApp(App):
         self.title = event.key
         self.sub_title = f"You just pressed: {event.key}"
         
-
     def on_quit(self):
         self.exit("User quit")
 
